@@ -1,0 +1,1 @@
+hadoop jar hadoop-sort.jar sort in /project/in-1mb.txt out /project/out-1mb.txt

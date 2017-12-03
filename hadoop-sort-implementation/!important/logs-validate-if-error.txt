@@ -1,0 +1,7 @@
+java.lang.Exception: java.io.InterruptedIOException: Not valid values order: ZSXDTHBALRESOXHFWSAR, ABQZYJYDXIDMZPSTSDKD
+        at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+        at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.InterruptedIOException: Not valid values order: ZSXDTHBALRESOXHFWSAR, ABQZYJYDXIDMZPSTSDKD
+        at edu.itu.hadoop.DataValidator$ValidatorMapper.compare(DataValidator.java:78)
+        at edu.itu.hadoop.DataValidator$ValidatorMapper.map(DataValidator.java:66)
+        at edu.itu.hadoop.DataValidator$ValidatorMapper.map(DataValidator.java:54)

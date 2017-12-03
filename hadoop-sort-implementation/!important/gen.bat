@@ -1,0 +1,1 @@
+java -jar hadoop-sort.jar gen delimiter , out out.txt columns first_names.csv,last_names.csv mb 1

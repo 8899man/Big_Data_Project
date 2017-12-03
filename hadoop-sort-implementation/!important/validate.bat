@@ -1,0 +1,1 @@
+hadoop jar hadoop-sort.jar validate in /project/out-1m.txt out /project/val-1m.txt
